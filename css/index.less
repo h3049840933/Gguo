@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* 头部 */
+header {
+    width: 1000px;
+    height: 77px;
+    margin: auto;
+    overflow: hidden;
+
+    .logo {
+        float: left;
+        padding-top: 13px;
+        width: 132px;
+
+        a {
+            img {
+                width: 132px;
+            }
+        }
+
+        &:hover {
+            animation: fade 1s ease-in infinite;
+        }
+    }
+
+    .nav {
+        display: flex;
+        width: 450px;
+        height: 32px;
+        margin-top: 28px;
+        margin-left: 40px;
+        justify-content: space-around;
+        float: left;
+
+        li {
+            width: 40px;
+
+            a {
+                color: #333;
+                font-size: 20px;
+                transition: color .2s ease;
+
+                &:hover {
+                    color: #fe5341;
+                }
+            }
+        }
+
+        .onPage {
+            a {
+                color: #fe5341;
+            }
+        }
+    }
+
+    .right {
+        float: right;
+
+        a {
+            float: left;
+        }
+
+        .login {
+            transition: all 0.15s linear;
+            color: #fe5341;
+            margin-top: 23px;
+            font-size: 16px;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 3px;
+            border: 1px solid #fe5341;
+
+            &:hover {
+                background-color: #fe5341;
+                color: #fff;
+            }
+        }
+
+        .search {
+            width: 42px;
+            height: 40px;
+            background: url(../img/search.png) no-repeat;
+            margin-top: 28px;
+            margin-right: 15px;
+            transition: transform 0.1s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
