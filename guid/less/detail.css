@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #FEFEFE;
+  border: 1px solid #CECFCF;
+}
+header .warp {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+header .warp img {
+  width: 132px;
+  margin-top: 10px;
+  float: left;
+}
+header .warp .rp {
+  float: left;
+  line-height: 70px;
+  text-align: center;
+}
+header .warp .rp li {
+  float: left;
+  margin-left: 25px;
+}
+header .warp .rp li a {
+  color: #4c4c4c;
+}
+header .warp .rp li a:hover {
+  color: #FE5341;
+}
+header .warp .nav {
+  float: right;
+  width: 150px;
+  height: 100%;
+  margin: 25px auto;
+}
+header .warp .nav .log {
+  float: right;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #fe5341;
+}
+header .warp .nav .log a {
+  line-height: 32px;
+  margin-left: 10px;
+  color: #fe5341;
+}
+header .warp .nav .search {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(../../img/search.png) no-repeat;
+}
+/*主体部分*/
+.report {
+  width: 100%;
+  height: 4550px;
+  background-color: #F7F7F7;
+}
+.report .wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+.report .wrap .wrap_top {
+  height: 50px;
+  line-height: 50px;
+}
+.report .wrap .wrap_top a {
+  font-size: 12px;
+  color: #a3a3a3;
+  margin-left: 20px;
+}
+.report .wrap .left {
+  width: 750px;
+  height: 4490px;
+  background-color: #FEFEFE;
+  float: left;
+  border-radius: 10px;
+}
+.report .wrap .left .ther {
+  width: 100%;
+  height: 125px;
+  border-bottom: 1px solid #bdb9b9;
+}
+.report .wrap .left .ther h1 {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #474747;
+}
+.report .wrap .left .ther .her {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.report .wrap .left .ther .her span:nth-of-type(1) {
+  color: #a3a3a3;
+  font-size: 13px;
+}
+.report .wrap .left .ther .her span:nth-of-type(2) {
+  color: #a3a3a3;
+  font-size: 13px;
+  margin-left: 580px;
+}
+.report .wrap .left .pen {
+  width: 100%;
+  height: 420px;
+}
+.report .wrap .left .pen p {
+  font-size: 13px;
+  margin: 15px;
+}
+.report .wrap .left .select {
+  width: 100%;
+  height: 500px;
+}
+.report .wrap .left .select h6 {
+  font-size: 20px;
+  text-align: center;
+  color: #808082;
+  margin-bottom: 20px;
+}
+.report .wrap .left .select p {
+  font-size: 13px;
+  color: #4a4646;
+  margin: 15px 55px;
+}
+.report .wrap .left .select img {
+  margin: 0 55px;
+}
+.report .wrap ul {
+  margin: 40px;
+}
+.report .wrap ul li {
+  font-size: 16px;
+  color: #a3a3a3;
+}
+.report .wrap .right {
+  width: 265px;
+  height: 105px;
+  float: left;
+  margin-left: 36px;
+  background-color: #FEFEFE;
+  border-radius: 10px;
+}
+.report .wrap .right .detailFeel {
+  height: 108px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid #ebebeb;
+}
+.report .wrap .right dd {
+  float: left;
+  width: 50%;
+  height: 108px;
+  display: table;
+  text-align: center;
+  box-sizing: border-box;
+}
+.report .wrap .right dd a {
+  display: table-cell;
+  width: 100%;
+  height: 108px;
+  vertical-align: middle;
+  border: 1px solid #d4cfcf;
+  color: #a3a3a3;
+}
+.report .wrap .right dd a::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 26px;
+  margin-bottom: 8px;
+  margin-left: 50px;
+  background: url(../../img/xinRedo.png) no-repeat;
+}
+.report .wrap .right dd a:hover {
+  color: #FE5341;
+}
+/* 底部部分*/
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: #505050;
+}
+.footer .fix {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.footer .fix dl {
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 40px;
+}
+.footer .fix dl dt {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+.footer .fix dl dt #imges {
+  width: 121px;
+  height: 46px;
+}
+.footer .fix dl dd {
+  font-size: 12px;
+  color: #e5dcdc;
+}
+.footer .coty {
+  width: 160px;
+  height: 30px;
+  margin: -50px auto;
+  color: #e5dcdc;
+}

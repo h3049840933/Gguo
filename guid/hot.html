@@ -5,58 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>申请中</title>
-    <link rel="stylesheet" href="../sq.css">
-    <script src="../../js/sq.js"></script>
+    <title>导购清单</title>
+    <link rel="stylesheet" href="./less/hot.css">
 </head>
 
 <body>
+    <!-- 头部部分 -->
+    <header>
+        <div class="warp">
+            <div class="wrap">
+                <a href="#">
+                    <img src="../img/logonew.png"></img>
+                </a>
+                <ul class="rp">
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">酷玩</a>
+                    </li>
+                    <li>
+                        <a href="#">导购</a>
+                    </li>
+                    <li>
+                        <a href="#">使用</a>
+                    </li>
+                    <li>
+                        <a href="#">报告</a>
+                    </li>
+                </ul>
+                <div class="nav">
+                    <div class="log">
+                        <a href="#">注册</a>
+                    </div>
+                    <div class="search">
+                        <a href="#"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="header">
-        <div class="center">
-            <img src="../../img/logo.png" alt="">
-            <ul>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">酷玩</a></li>
-                <li><a href="#">导购</a></li>
-                <li><a href="#" id="shiyong">试用</a></li>
-                <li><a href="#">报告</a></li>
-            </ul>
-            <img src="../../img/search.png" alt="">
-            <button><a>注册</a></button>
+    <!-- 导购 -->
+    <div class="find">
+        <h1>导购清单</h1>
+        <div class="find_top">
+            <a href="./index.html">最新</a>
+            <a href="./" class="new">最热</a>
         </div>
     </div>
-    <div class="title">
-        <h1>免费试用</h1>
-    </div>
-    <div class="active1">
-        <div class="center">
-            <div class="left"><a href="../use/index.html">大众试用</a></div>
-            <div class="right"><a href="../use/tys.html">体验式专享</a></div>
-        </div>
-    </div>
-    <div class="active2">
-        <ul>
-            <li><a href="../use/index.html">全部</a></li>
-            <li><a href="../use/sq.html" id="quanbu">申请中</a></li>
-            <li><a href="../use/sy.html">使用中</a></li>
-            <li><a href="../use/end.html">已结束</a></li>
+
+    <!-- 发现酷玩 -->
+
+    <div class="play">
+        <!-- ajax请求 -->
+        <ul class="dith">
+
         </ul>
     </div>
-    <div class="active3">
-        <dl></dl>
 
-    </div>
+
+    <!-- 底部 -->
     <div class="footer">
         <div class="fix">
-            <dl class="box1">
+            <dl>
                 <dt>
-                    <img src="../../img/code.png" alt="">
+                    <img src="../img/code.png" alt="">
                 </dt>
             </dl>
-            <dl class="box1">
+            <dl>
                 <dt>
-                    <img src="../../img/logoImg.jpg" alt="" id="imges">
+                    <img src="../img/logoImg.jpg" alt="" class="imges">
                 </dt>
                 <dd>全球酷玩试用导购平台
                     <br>
@@ -68,7 +87,7 @@
                 </dd>
             </dl>
 
-            <dl class="box1">
+            <dl>
                 <dt>
                     免费使用
                 </dt>
@@ -77,7 +96,7 @@
                 <dd>如何提高成功率</dd>
             </dl>
 
-            <dl class="box1">
+            <dl>
                 <dt>
                     友情链接
                 </dt>
@@ -90,7 +109,7 @@
                 <dd>极客公园 易迅易启玩</dd>
                 <dd>果库</dd>
             </dl>
-            <dl class="box1">
+            <dl>
                 <dt>
                     购买攻略
                 </dt>
@@ -101,21 +120,23 @@
                 <dd>indiegogo 众筹购买攻略</dd>
             </dl>
 
-            <dl class="box1">
+            <dl>
                 <dt>
                     厂商合作
                 </dt>
                 <dd>关于极果</dd>
                 <dd>联系我们</dd>
-                <dd>商务合作:BD@jiguo.com</dd>
-                <dd>CEO邮箱:CEO@jiguo.com</dd>
+                <dd>商务合作：BD@jiguo.com</dd>
+                <dd>CEO邮箱：CEO@jiguo.com</dd>
             </dl>
 
 
         </div>
-        <p>@2016 极果版权所有</p>
+        <div class="coty">
+            @2016 极果版权所有
+        </div>
     </div>
-
 </body>
 
 </html>
+<script src="./js/hot.js"></script>
