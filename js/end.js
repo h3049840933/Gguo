@@ -2,7 +2,7 @@ var str = '';
 var data = [];
 window.onload = function () {
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    ajax.open('get', 'http://127.0.0.1:3000/useing/public');
+    ajax.open('get', 'http://127.0.0.1:3000/useing/master');
     ajax.send();
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4) {
@@ -43,4 +43,4 @@ function showData() {
         shuju.innerHTML += str;
     }
 }
-showData();
+showData(); 
